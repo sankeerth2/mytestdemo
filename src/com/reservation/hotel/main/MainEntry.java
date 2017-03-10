@@ -21,8 +21,9 @@ public static void main(String[] args) {
 }
 
 private static void roomRates(OrderInput orderInput) {
+	
 	HotelRates lakewoodRegularWeekday = new HotelRates();
-	lakewoodRegularWeekday.setPrice(10);
+	lakewoodRegularWeekday.setPrice(110);
 	orderInput.roomRates(HotelType.LAKEWOOD, CustomerType.REGULAR, DayType.WEEKDAY, lakewoodRegularWeekday);
 	
 	HotelRates lakewoodRegularWeekend = new HotelRates();
