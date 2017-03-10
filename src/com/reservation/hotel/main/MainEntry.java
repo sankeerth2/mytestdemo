@@ -22,7 +22,7 @@ public static void main(String[] args) {
 
 private static void roomRates(OrderInput orderInput) {
 	HotelRates lakewoodRegularWeekday = new HotelRates();
-	lakewoodRegularWeekday.setPrice(110);
+	lakewoodRegularWeekday.setPrice(10);
 	orderInput.roomRates(HotelType.LAKEWOOD, CustomerType.REGULAR, DayType.WEEKDAY, lakewoodRegularWeekday);
 	
 	HotelRates lakewoodRegularWeekend = new HotelRates();
@@ -30,7 +30,7 @@ private static void roomRates(OrderInput orderInput) {
 	orderInput.roomRates(HotelType.LAKEWOOD, CustomerType.REGULAR, DayType.WEEKEND, lakewoodRegularWeekend);
 	
 	HotelRates lakewoodRewardWeekday = new HotelRates();
-	lakewoodRewardWeekday.setPrice(80);
+	lakewoodRewardWeekday.setPrice(70);
 	orderInput.roomRates(HotelType.LAKEWOOD, CustomerType.REWARD, DayType.WEEKDAY, lakewoodRewardWeekday);
 
 	HotelRates lakewoodRewardWeekend = new HotelRates();
